@@ -355,3 +355,15 @@
 	box-sizing: inherit;
  }
  /* the code above is for box sizing, so that everything is the same and the margins and padding are accounted for */
+
+ embed,
+iframe,
+object {
+  max-width: 100%;
+}
+ 
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
