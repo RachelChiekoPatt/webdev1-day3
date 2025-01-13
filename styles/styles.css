@@ -1,10 +1,10 @@
-html {
-	box-sizing: border-box;
- }
- *, *:before, *:after {
-	box-sizing: inherit;
- }
- /* the code above is for box sizing, so that everything is the same and the margins and padding are accounted for */
+body {
+	max-width: 31.25rem;
+	margin: 0 auto;
+  }
+  /* this is for phone first layout. max width limits how wide it will go. margin 0 outs it in the middle */
+
+
 
 body {
 	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
@@ -32,7 +32,7 @@ dd {
 }
 
 section.warning {
-	background-color: #ffff0075;
+	background-color: #f6f62fe9;
 }
 
 .table-custom {
@@ -49,4 +49,26 @@ nav li {
 /* the code below is for the elements to show up stacked */
 section.warning img {
 	display: block;
+}
+.section-table {
+	background-color:rgb(161, 227, 227);
+	/* padding-top: 1rem;
+	padding-right: 2rem;
+	padding-bottom: 3rem;
+	padding-left: 4rem;
+	Bellow is the short hand for the above code */
+	padding: 1rem 2rem 3rem 4rem;
+	margin-top: 6rem;
+}
+
+td,
+th {
+	padding: .5rem;
+}
+section.warning {
+	padding: 1rem .5rem;
+}
+
+.table-custom {
+	padding: 2rem 1rem 3rem;
 }
