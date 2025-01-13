@@ -1,3 +1,11 @@
+html {
+	box-sizing: border-box;
+ }
+ *, *:before, *:after {
+	box-sizing: inherit;
+ }
+ /* the code above is for box sizing, so that everything is the same and the margins and padding are accounted for */
+
 body {
 	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
 	font-size: 18px;
@@ -33,4 +41,12 @@ section.warning {
 
 table {
 	color: orange;
+}
+/* the code below is to have the text elements show horizontal */
+nav li {
+	display: inline-block
+}
+/* the code below is for the elements to show up stacked */
+section.warning img {
+	display: block;
 }
